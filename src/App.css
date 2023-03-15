@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+h2 {
+  margin-top: 70px;
+}
+
+h1 {
+  font-family: "Courier New";
+}
+
+* {
+  font-family: "Roboto";
+}
