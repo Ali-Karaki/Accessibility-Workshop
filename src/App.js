@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 import "./App.css";
 
@@ -17,6 +19,15 @@ export default function App() {
   };
 
   const [timeRemaining, setTimeRemaining] = React.useState(60);
+  const [fontSize, setFontSize] = React.useState(16);
+
+  const increaseFontSize = () => {
+    setFontSize((prevFontSize) => prevFontSize + 2);
+  };
+
+  const decreaseFontSize = () => {
+    setFontSize((prevFontSize) => prevFontSize - 2);
+  };
 
   React.useEffect(() => {
     const timer = setInterval(() => {
@@ -29,7 +40,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="App" style={{ fontSize: `${fontSize}px` }}>
       <header>
         <h1 style={{ fontFamily: "Courgette, cursive" }}>
           Accessibility Workshop
@@ -187,6 +198,36 @@ export default function App() {
             <p>
               Learn more about web accessibility by reading our{" "}
               <a href="https://www.example.com">comprehensive guide</a>.
+            </p>
+          </div>
+          <h2>Adjustable Font Sizes</h2>
+          <p>Affected users: People with visual impairments</p>
+          <div style={problemStyle}>
+            <p>Problem: Font too small to read</p>
+            <p>
+              The quick brown fox jumps over a lazy dog is the most famous
+              pangram in English, that is the most short sentence in which all
+              the 26 letters of the alphabet are used.
+            </p>
+          </div>
+          <div style={solutionStyle}>
+            <p>
+              Solution: Provide the user the option to increase or decrease font
+              size
+            </p>
+            <p>
+              <button
+                style={{ fontSize: `${fontSize}px` }}
+                onClick={increaseFontSize}
+              >
+                Increase Font Size
+              </button>
+              <button
+                style={{ fontSize: `${fontSize}px` }}
+                onClick={decreaseFontSize}
+              >
+                Decrease Font Size
+              </button>
             </p>
           </div>
         </section>
