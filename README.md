@@ -1,3 +1,5 @@
+https://ali-karaki.github.io/Accessibility-Workshop/
+
 # Web Accessibility Workshop
 
 Hello everyone! Today, we'll discuss some common web accessibility problems and demonstrate their solutions using a React app. We'll cover keyboard navigation, color contrast, alternative text for images, accessible forms, and headings and landmarks. By addressing these issues, we can create a more inclusive web experience for all users, including those with disabilities.
