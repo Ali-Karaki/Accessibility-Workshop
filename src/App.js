@@ -128,30 +128,6 @@ export default function App() {
             </form>
           </div>
 
-          <h2>Headings and Landmarks</h2>
-          <p>
-            Affected users: People with visual impairments, cognitive
-            disabilities, or learning disabilities who rely on screen readers or
-            other assistive technologies to navigate content.
-          </p>
-          <div style={problemStyle}>
-            <p>Problem: Non-semantic markup and headings</p>
-            <div>
-              <h3>Main Content</h3>
-              <div>
-                <h4>Subsection</h4>
-              </div>
-            </div>
-          </div>
-          <div style={solutionStyle}>
-            <p>Solution: Semantic markup and hierarchical headings</p>
-            <main>
-              <h2>Main Content</h2>
-              <section>
-                <h3>Subsection</h3>
-              </section>
-            </main>
-          </div>
           <h2>Time-based Content</h2>
           <p>
             Affected users: People with disabilities who may require additional
