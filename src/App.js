@@ -115,7 +115,7 @@ export default function App() {
           <div style={problemStyle}>
             <p>Problem: Form without proper markup</p>
             <form>
-              Name: <input type="text" name="name" />
+              <input type="text" name="name" placeholder="Tony Stark" />
               <button type="submit">Submit</button>
             </form>
           </div>
