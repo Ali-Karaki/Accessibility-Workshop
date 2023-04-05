@@ -101,7 +101,7 @@ export default function App() {
             <p>Solution: Image with descriptive alt text</p>
             <img
               src="example-image.jpg"
-              alt="A description of the image content"
+              alt="A picture of a golden retriever playing fetch in a park"
               style={{ width: "100px" }}
             />
           </div>
@@ -115,7 +115,7 @@ export default function App() {
           <div style={problemStyle}>
             <p>Problem: Form without proper markup</p>
             <form>
-              <input type="text" name="name" placeholder="Tony Stark" />
+              <input type="text" name="name" />
               <button type="submit">Submit</button>
             </form>
           </div>
@@ -173,7 +173,7 @@ export default function App() {
             <p>Solution: Descriptive and meaningful link text</p>
             <p>
               Learn more about web accessibility by reading our{" "}
-              <a href="https://www.example.com">comprehensive guide</a>.
+              <a href="https://www.google.com/">comprehensive guide</a>.
             </p>
           </div>
           <h2>Adjustable Font Sizes</h2>

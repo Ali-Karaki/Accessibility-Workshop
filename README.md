@@ -8,7 +8,7 @@ https://wave.webaim.org/report#/https://ali-karaki.github.io/Accessibility-Works
 
 # Web Accessibility Workshop
 
-Hello everyone! Today, we'll discuss some common web accessibility problems and demonstrate their solutions using a React app. We'll cover keyboard navigation, color contrast, alternative text for images, accessible forms, and headings and landmarks. By addressing these issues, we can create a more inclusive web experience for all users, including those with disabilities.
+Hello everyone! Today, we'll discuss some common web accessibility problems and demonstrate their solutions using a React app. We'll cover keyboard navigation, color contrast, alternative text for images, accessible forms. By addressing these issues, we can create a more inclusive web experience for all users, including those with disabilities.
 
 ## Keyboard Navigation
 
@@ -28,17 +28,9 @@ Alternative text for images is crucial for users with visual impairments who rel
 
 Inaccessible forms can pose challenges for people with visual impairments or cognitive disabilities who rely on screen readers or other assistive technologies. Our app shows a form without proper HTML markup, making it difficult for assistive technology users to understand and interact with the form. To improve accessibility, we use proper HTML markup, including `<label>` elements and the `required` attribute for input fields, making it easier for users to fill out the form.
 
-## Headings and Landmarks
-
-Let's we address the use of headings and landmarks. Proper use of these elements is crucial for users with visual impairments, cognitive disabilities, or learning disabilities who rely on assistive technologies to navigate content. We show an example of non-semantic markup and improper heading hierarchy. To improve accessibility, we use semantic HTML elements like `<header>`, `<main>`, `<section>`, and `<footer>` along with hierarchical headings, such as `<h1>` and `<h2>`. This helps users with assistive technologies to better understand and navigate the content.
-
 ## Adjustable Font Sizes
 
 Adjustable font sizes are an important accessibility feature that allow users to increase the size of text on the screen. This is especially useful for people with visual impairments. To implement this feature, software should provide the ability to adjust font sizes in the settings menu.
-
-## Screen reader support
-
-A screen reader is a software program that reads the text displayed on a computer screen out loud for people with visual impairments. Screen reader support involves designing software to be compatible with screen readers so that users with visual impairments can access the content. For example, Microsoft Office products such as Word and PowerPoint have built-in support for screen readers like JAWS and NVDA.
 
 ## Closed captioning
 
@@ -48,9 +40,10 @@ Closed captioning is a text display of the audio content of a video that can be 
 
 Games can be designed with accessibility features to make them playable for people with different abilities. Here are some examples of accessibility features that can be implemented in games:
 
-- Customizable controls: Games can be designed with customizable controls that allow players to map game actions to buttons or keys that are easier for them to use. This is especially useful for players with physical disabilities who may have difficulty using standard game controllers. For example, the game "Celeste" allows players to customize the button mappings for every action in the game.
-- Audio cues: Games can incorporate audio cues to provide information to players who are visually impaired. For example, a game might use sound effects to indicate when the player has successfully completed a task or reached a certain location.
-- Subtitles or closed captioning: Games can be designed with subtitles or closed captioning to make the dialogue and other audio content accessible to players who are deaf or hard of hearing. For example, the game "The Last of Us Part II" includes a robust closed captioning system that provides text descriptions of all the game's dialogue and sound effects.
+- Customizable controls: allow players to map game actions to buttons or keys that are easier for them to use. This is especially useful for players with physical disabilities who may have difficulty using standard game controllers.
+- Adjustable Difficulty Levels: allow players to modify settings, such as slowing down the game speed, granting invincibility to accommodate various skill levels and cognitive abilities.
+- Audio cues: incorporate audio cues to provide information to players who are visually impaired. For example, a game might use sound effects to indicate when the player has successfully completed a task.
+- Subtitles: make the dialogue and other audio content accessible to players who are deaf or hard of hearing. Subtitles include sound effects.
 
 ## Embedded software
 
